@@ -5,6 +5,6 @@ updated_at: '29 Okt 2021'
 ---
 
 
-git commit --amend -m '&laquo;new_message&raquo;'
+git commit --amend -m '&lt;new_message&gt;'
 
 git push -f
