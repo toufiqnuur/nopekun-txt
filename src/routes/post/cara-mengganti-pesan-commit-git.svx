@@ -2,6 +2,7 @@
 title: 'Cara mengganti pesan commit git'
 published_at: '27 Okt 2021'
 updated_at: '29 Okt 2021'
+author: 'Nopekun'
 ---
 
 
