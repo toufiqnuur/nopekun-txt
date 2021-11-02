@@ -13,6 +13,7 @@ const config = {
 			fallback: null
 		}),
 		router: false,
+		host: 'nopekun-txt.pages.dev',
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
 	},
