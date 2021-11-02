@@ -6,11 +6,13 @@
 </script>
 
 <script>
+	import { page } from '$app/stores';
 	export let articles;
 </script>
 
 <svelte:head>
 	<title>Nopekun.txt - Catatan hati seorang programmer</title>
+	<link rel="canonical" href={`https://${$page.host}`} />
 </svelte:head>
 
 <section class="post__list">
