@@ -2,6 +2,7 @@
 title: 'Menemukan metode belajar yang tepat'
 published_at: '2 Nov 2021'
 updated_at: 
+description: 'Menemukan metode belajar yang tepat dan efektif'
 author: 'Nopekun'
 ---
 

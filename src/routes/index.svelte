@@ -13,6 +13,7 @@
 <svelte:head>
 	<title>Nopekun.txt - Catatan hati seorang programmer</title>
 	<link rel="canonical" href={`https://${$page.host}`} />
+	<meta name="description" content="Catatan hati seorang programmer." />
 </svelte:head>
 
 <section class="post__list">
