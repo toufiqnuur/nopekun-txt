@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	export let title, published_at, updated_at, author;
+	export let title, published_at, updated_at, author, description;
 
 	const BASE_URL = 'https://github.com/toufiqnuur/nopekun-txt/blob/main/src/routes/post/';
 	const EDIT_URL = BASE_URL + title.split(' ').join('-').toLowerCase() + '.svx';
@@ -9,6 +9,7 @@
 <svelte:head>
 	<title>{title}</title>
 	<link rel="canonical" href={`https://${$page.host + $page.path}`} />
+	<meta name="description" content={description} />
 </svelte:head>
 
 <div class="flex items-start flex-col md:flex-row md:space-x-3">
