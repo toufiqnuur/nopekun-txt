@@ -17,7 +17,7 @@ main {
 }
 
 .navbar__brand {
-	@apply box text-green-500 flex-1 p-3;
+	@apply box text-green-600 flex-1 p-3;
 	@apply text-xl font-bold uppercase;
 }
 
