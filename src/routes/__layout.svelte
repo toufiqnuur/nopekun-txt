@@ -7,7 +7,10 @@
 </script>
 
 <div class="w-full max-w-xl mx-auto">
-	<img src="/banner.png" alt="nopekun.txt" />
+	<picture>
+		<source type="image/avif" srcset="/banner.avif" />
+		<img src="/banner.webp" width="1280" height="426" alt="banner nopekun.txt" />
+	</picture>
 </div>
 
 <nav class="navbar">
