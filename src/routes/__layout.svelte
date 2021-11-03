@@ -6,6 +6,10 @@
 	import '@fontsource/inter/700.css';
 </script>
 
+<svelte:head>
+	<meta name="theme-color" content="#34D399" />
+</svelte:head>
+
 <div class="w-full max-w-xl mx-auto">
 	<picture>
 		<source type="image/avif" srcset="/banner.avif" />
