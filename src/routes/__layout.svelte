@@ -12,8 +12,8 @@
 
 <div class="w-full max-w-xl mx-auto">
 	<picture>
-		<source type="image/avif" srcset="/banner.avif" />
-		<img src="/banner.webp" width="1280" height="426" alt="banner nopekun.txt" />
+		<source type="image/avif" srcset="/images/banner.avif" />
+		<img src="/images/banner.webp" width="1280" height="426" alt="banner nopekun.txt" />
 	</picture>
 </div>
 
