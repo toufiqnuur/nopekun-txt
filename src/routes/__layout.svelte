@@ -6,10 +6,16 @@
 	import '@fontsource/inter/700.css';
 </script>
 
+<svelte:head>
+	<meta name="theme-color" content="#34D399" />
+	<link rel="manifest" href="/manifest.json" />
+	<link rel="apple-touch-icon" href="/images/touch/192.png" />
+</svelte:head>
+
 <div class="w-full max-w-xl mx-auto">
 	<picture>
-		<source type="image/avif" srcset="/banner.avif" />
-		<img src="/banner.webp" width="1280" height="426" alt="banner nopekun.txt" />
+		<source type="image/avif" srcset="/images/banner.avif" />
+		<img src="/images/banner.webp" width="1280" height="426" alt="banner nopekun.txt" />
 	</picture>
 </div>
 
