@@ -8,6 +8,7 @@
 
 <svelte:head>
 	<meta name="theme-color" content="#34D399" />
+	<link rel="manifest" href="manifest.json" />
 </svelte:head>
 
 <div class="w-full max-w-xl mx-auto">
