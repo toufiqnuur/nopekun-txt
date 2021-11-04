@@ -1,4 +1,5 @@
 <script>
+	import 'prismjs/themes/prism-tomorrow.css';
 	import { page } from '$app/stores';
 	export let title, published_at, updated_at, author, description;
 
