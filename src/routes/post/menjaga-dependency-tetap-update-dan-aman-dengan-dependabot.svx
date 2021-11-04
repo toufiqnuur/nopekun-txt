@@ -24,7 +24,7 @@ Pertama kita buat folder baru diroot project dengan nama `.github` kemudian buat
 
 Kemudian edit `dependabot.yml` seperti berikut.
 
-```yml
+```yaml
 version: 2
 updates:
   - package-ecosystem: 'npm'
