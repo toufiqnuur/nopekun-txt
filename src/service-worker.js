@@ -1,7 +1,7 @@
 import { build, timestamp } from '$service-worker';
 
 const CACHE_NAME = `cache-${timestamp}`;
-const CACHE_URL = build.filter((file) => !/.*\.(png|webp|jpg|avif|txt|)/.test(file));
+const CACHE_URL = build.filter((file) => !/.*\.(png|webp|jpg|avif|)/.test(file));
 
 self.addEventListener('install', (event) => {
 	event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(CACHE_URL)));
