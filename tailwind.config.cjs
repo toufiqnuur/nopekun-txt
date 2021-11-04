@@ -3,13 +3,27 @@ const config = {
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {},
+		extend: {
+			typography: {
+				DEFAULT: {
+					css: {
+						a: {
+							color: '#2563eb'
+						},
+						code: {
+							background: '#DBEAFE',
+							color: '#2563EB'
+						}
+					}
+				}
+			}
+		},
 		fontFamily: {
 			sans: ['Inter', 'sans-serif']
 		}
 	},
 
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };
 
 module.exports = config;

@@ -1,7 +1,7 @@
 ---
 title: 'Menjaga dependency tetap update dan aman dengan dependabot'
 published_at: '4 Nov 2021'
-updated_at: 
+updated_at:
 description: 'Memastikan dependency tetap aman dan update menggunakan dependabot.'
 author: 'Nopekun'
 ---
