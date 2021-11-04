@@ -6,7 +6,8 @@ description: 'Mengganti pesan commit pada git'
 author: 'Nopekun'
 ---
 
-
+```bash
 git commit --amend -m 'new_message'
 
 git push -f
+```
