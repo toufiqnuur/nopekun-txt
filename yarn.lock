@@ -104,14 +104,14 @@
   integrity sha512-B4+QoUVAaANKx+mHntG8SqF45zbj3Ct4Akg/cGauo6COyfKZRhO5OsMa+wPuT2TKJBZC4eEDK0p+p9nyQBkxKQ==
 
 "@sveltejs/kit@next":
-  version "1.0.0-next.190"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.190.tgz#7d0bfde4de774290bf694a2d9f5f37b2a60d04c9"
-  integrity sha512-5sNBwi2uizGkzuRAhwwpILPyD7DNPIlpMIWrgBue71sh51F9BXVzwoD3ZfMpwG5mzI/TKo4HlDVJwh9PBAgaTQ==
+  version "1.0.0-next.194"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.194.tgz#dc4ee7e9402598085fda570bb3a762689c2cc7bf"
+  integrity sha512-xM6BKLZkfYUEy0JXwglhCqBF58S8K4Lt7K7TdLMirrO4gtnZlhg8yhMsG+dYM257Fq0ucS7d/72QgXJfnfURZA==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.30"
     cheap-watch "^1.0.4"
     sade "^1.7.4"
-    vite "^2.6.11"
+    vite "^2.6.12"
 
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.30":
   version "1.0.0-next.30"
@@ -1826,10 +1826,10 @@ vfile@^5.0.0:
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
 
-vite@^2.6.11:
-  version "2.6.11"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.6.11.tgz#20d3d8f4b4fe38904a2e425356aab1cb23325e12"
-  integrity sha512-JWnGmiO1IFwou9aUWS4N0kMyHcgTTt1+2f4bJyzgBJLJDyAqGEX3HewE4jgrL6V4d9+mxs+lZ4L8HL2kyVBe7A==
+vite@^2.6.12:
+  version "2.6.13"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.6.13.tgz#16b3ec85a66d5b461ac29a903874d4357f9af432"
+  integrity sha512-+tGZ1OxozRirTudl4M3N3UTNJOlxdVo/qBl2IlDEy/ZpTFcskp+k5ncNjayR3bRYTCbqSOFz2JWGN1UmuDMScA==
   dependencies:
     esbuild "^0.13.2"
     postcss "^8.3.8"
