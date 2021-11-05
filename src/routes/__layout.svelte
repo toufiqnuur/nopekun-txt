@@ -8,7 +8,6 @@
 
 <svelte:head>
 	<meta name="theme-color" content="#34D399" />
-	<meta name="robots" content="all"/>
 	<link rel="manifest" href="/manifest.json" />
 	<link rel="apple-touch-icon" href="/images/touch/192.png" />
 </svelte:head>
