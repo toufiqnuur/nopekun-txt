@@ -28,7 +28,7 @@ $ yarn dev
 
 - Now open `http://localhost:3000` on your browser
 
-## 🏗️ Tech Stuck
+## 🏗️ Tech Stack
 
 - Svelte Kit
 - Tailwind CSS
