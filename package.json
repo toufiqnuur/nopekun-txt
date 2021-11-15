@@ -30,6 +30,6 @@
 		"cookie": "^0.4.1",
 		"gray-matter": "^4.0.3",
 		"remark-containers": "^1.2.0",
-		"remark-github": "^11.2.1"
+		"remark-github": "^11.2.2"
 	}
 }
