@@ -4,7 +4,7 @@
   export let title, published_at, updated_at, author, description;
 
   const BASE_URL = 'https://github.com/toufiqnuur/nopekun-txt/blob/main/src/routes/post/';
-  const EDIT_URL = BASE_URL + title.split(' ').join('-').toLowerCase() + '.svx';
+  const EDIT_URL = BASE_URL + title.split(' ').join('-').toLowerCase() + '.md';
 </script>
 
 <svelte:head>
