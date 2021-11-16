@@ -4,45 +4,45 @@
 @tailwind screens;
 
 body {
-	@apply bg-gray-100;
+  @apply bg-gray-100;
 }
 
 main {
-	@apply max-w-screen-md mx-auto p-6;
+  @apply max-w-screen-md mx-auto p-6;
 }
 
 /* NAVBAR */
 .navbar {
-	@apply flex space-x-3 max-w-screen-md mx-auto p-6;
+  @apply flex space-x-3 max-w-screen-md mx-auto p-6;
 }
 
 .navbar__brand {
-	@apply box text-green-600 flex-1 p-3;
-	@apply text-xl font-bold uppercase;
+  @apply box text-green-600 flex-1 p-3;
+  @apply text-xl font-bold uppercase;
 }
 
 .navbar__button {
-	@apply box bg-green-300 p-3;
+  @apply box bg-green-300 p-3;
 }
 
 @layer components {
-	.box {
-		@apply border border-black shadow active:shadow-sm;
-	}
+  .box {
+    @apply border border-black shadow active:shadow-sm;
+  }
 }
 
 @layer utilities {
-	.shadow {
-		box-shadow: 0.35rem 0.35rem 0 black;
-	}
-	.shadow-sm {
-		box-shadow: 0.15rem 0.15rem 0 black;
-	}
+  .shadow {
+    box-shadow: 0.35rem 0.35rem 0 black;
+  }
+  .shadow-sm {
+    box-shadow: 0.15rem 0.15rem 0 black;
+  }
 }
 
 @screen md {
-	main,
-	.navbar {
-		@apply px-0;
-	}
+  main,
+  .navbar {
+    @apply px-0;
+  }
 }
