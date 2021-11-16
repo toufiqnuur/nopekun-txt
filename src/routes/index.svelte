@@ -1,6 +1,6 @@
 <script context="module">
   export async function load({ fetch }) {
-    const articles = await (await fetch('/api/post.json')).json();
+    const articles = (await (await fetch('/api/post.json')).json()).data;
     return { props: { articles } };
   }
 </script>
@@ -18,16 +18,14 @@
 
 <section class="post__list">
   <h2 class="text-xl font-bold">📝 Tulisan terbaru</h2>
-  {#each articles.data as item}
+  {#each articles as { title, published_at, updated_at }}
     <article>
-      <a href={'post/' + item.data.title.split(' ').join('-').toLowerCase()}>
+      <a href={'post/' + title.split(' ').join('-').toLowerCase()}>
         <h1 class="text-normal font-semibold text-gray-600 active:text-black">
-          {item.data.title}
+          {title}
         </h1>
         <p class="text-sm">
-          {item.data.updated_at
-            ? 'Last update: ' + item.data.updated_at
-            : 'Pulished at: ' + item.data.published_at}
+          {updated_at ? 'Last update: ' + updated_at : 'Pulished at: ' + published_at}
         </p>
       </a>
     </article>
