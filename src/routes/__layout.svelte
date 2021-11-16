@@ -10,6 +10,7 @@
 	<meta name="theme-color" content="#34D399" />
 	<link rel="manifest" href="/manifest.json" />
 	<link rel="apple-touch-icon" href="/images/touch/192.png" />
+      <meta name="google-site-verification" content="Q4fhqDW8TaUwhpqOw5GedzlfWY0WV8yIvmlqbRgDasY" />
 </svelte:head>
 
 <div class="w-full max-w-xl mx-auto">
