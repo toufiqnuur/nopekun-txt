@@ -1,7 +1,7 @@
 ---
 title: 'Membuat custom headers response di cloudflare page'
 published_at: '16 Nov 2021'
-updated_at: 
+updated_at:
 description: 'Membuat custom headers http responden di cloudflare page'
 author: 'Nopekun'
 ---
